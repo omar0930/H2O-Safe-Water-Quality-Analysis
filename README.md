@@ -24,16 +24,6 @@ git clone https://github.com/omar0930/H2O-Safe-Water-Quality-Analysis.git
 cd H2O-Safe-Water-Quality-Analysis
 ```
 
-## Usage
-1. Load the dataset and preprocess it.
-2. Train and evaluate machine learning models.
-3. Visualize results using provided scripts.
-
-Run the analysis script:
-```bash
-python main.py
-```
-
 ## Technologies Used
 - **Programming Language**: Python
 - **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
