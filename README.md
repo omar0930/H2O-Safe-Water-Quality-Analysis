@@ -1,16 +1,47 @@
-# H2O-Safe-Water-Quality-Analysis
-This project involves analyzing water quality data to determine whether water samples are safe for consumption. The analysis includes data cleaning, exploration, and visualization to uncover patterns and insights from the dataset.
-Key Steps in the Analysis:
-Data Loading: The dataset is loaded using Pandas.
-Data Cleaning: Handling missing values and correcting data types.
-Exploratory Data Analysis (EDA):
-Visualizing outliers using box plots.
-Plotting a correlation matrix to understand relationships between variables.
-Generating histograms to observe the distribution of variables.
-Visualization: Various plots are created using Seaborn and Matplotlib to explore the data.
-To run this project, you will need the following Python packages:
-- numpy
-- pandas
-- matplotlib
-- seaborn
-  The Used DataSet Link From Kaggle (water quality) : https://www.kaggle.com/datasets/omarmohamed69/water-quality
+# H2O-Safe: Water Quality Analysis
+
+## Overview
+H2O-Safe is a water quality analysis project aimed at detecting contaminants in water sources using machine learning techniques. The project leverages data science and visualization tools to provide insights into water safety levels and potential risks.
+
+## Features
+- **Water Quality Prediction**: Uses machine learning models to predict water contamination levels.
+- **Data Visualization**: Interactive charts and graphs for better data understanding.
+- **Multi-source Data Analysis**: Processes data from various water sources.
+- **User-friendly Interface**: Easy-to-use interface for data exploration.
+
+## Dataset
+- The dataset consists of various water quality parameters collected from multiple sources.
+- Features include pH, turbidity, dissolved oxygen, and contamination levels.
+
+## Installation
+To set up the project locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/omar0930/H2O-Safe-Water-Quality-Analysis.git
+
+# Navigate to the project directory
+cd H2O-Safe-Water-Quality-Analysis
+```
+
+## Usage
+1. Load the dataset and preprocess it.
+2. Train and evaluate machine learning models.
+3. Visualize results using provided scripts.
+
+Run the analysis script:
+```bash
+python main.py
+```
+
+## Technologies Used
+- **Programming Language**: Python
+- **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+- **Machine Learning**: Random Forest, SVM, Decision Trees
+
+## Contributing
+Contributions are welcome! If you'd like to contribute, please:
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Submit a pull request.
